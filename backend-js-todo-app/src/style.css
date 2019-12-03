@@ -1,0 +1,14 @@
+body {
+    background-color: #888;
+    /*color: #90caf9;*/
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.wrapper-container {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg'); background-attachment: fixed; background-repeat:
+        no-repeat; background-size:
+        cover;
+    background-position: center center;
+}
+
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+    line-height: 31px;
+}
+
+.plg-btn-setting{
+    background-color: transparent !important;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    width: 31px;
+    height: 31px;
+}
+
+.fa-cog{
+    font-size: 1.7rem;
+    color: #4F79AE;
+}
+
+.card-header{
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.btnDel, .btnDone {
+    position: absolute;
+    right: 1.2rem;
+    line-height: 1.5rem;
+
+    transition: all 300ms ease-in-out;
+}
+
+.btnDel:hover, .btnDone:hover {
+    cursor: pointer;
+    color: red;
+    font-size: 1.1rem;
+    transition: all 300ms ease-in-out;
+}
+
+.btnDone{
+    right: 90%;
+    color: #52d81f;
+}
+
+.btnDone:hover{
+    color: #51c43f;
+}
+
+.plg-footer {
+    background-color: #424F95!important;
+}
+
+.far.btnDone {
+    color: #d8151d;
+}
+
