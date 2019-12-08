@@ -1,13 +1,14 @@
 "use strict";
 
 const options = {
+    tagScript : '.container-calc',
     showLog : true
 };
 
 class Calculator {
-    constructor ( { showLog } ) {
+    constructor ( { tagScript, showLog } ) {
         this.showLog = showLog;
-        this.$container = document.querySelector ( '.container-calc' );
+        this.$container = document.querySelector ( tagScript );
         this.$btn = null;
         this.$input = null;
         this.act = {
