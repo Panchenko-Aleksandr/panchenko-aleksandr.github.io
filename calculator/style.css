@@ -7,7 +7,7 @@ body {
 .container-calc {
     position: relative;
     width: 250px;
-    height: 430px;
+    height: 440px;
     border: 1px solid red;
     padding: 10px;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ body {
 .input-nums {
     width: 100%;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -56,12 +56,14 @@ body {
 .historyLogs {
     position: absolute;
     width:91.3%;
-    height: 0.8rem;
+    height: 1rem;
     top: 3.6rem;
+    margin-top:5px;
     border:1px solid #000;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #b9b9b9;
     text-align: right;
+    line-height: 1rem;
     overflow: hidden;
 }
 
